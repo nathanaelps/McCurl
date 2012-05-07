@@ -1,0 +1,16 @@
+mccall:
+    blackbox:
+        url: http://example.com/index.php
+        permission: none
+        parameters:
+            - err
+            - asdf
+            - adge
+            - agew
+    home:
+        url: http://logs.example.com/logger.php
+        permission: log
+        parameters:
+            - asdf
+            - ssge
+            

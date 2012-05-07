@@ -1,0 +1,21 @@
+name: McCurl
+main: me.nathanaelps.plugins.mccurl.McCurl
+version: b.04
+author: nathanaelps@yahoo.com
+permissions:
+    mccurl.use:
+        default: false
+    mccurl.reload:
+        default: false
+    mccurl.mccall:
+        default: true
+commands:
+    mccurl:
+        description: Call a URL from inside MC.
+        usage: /mccurl http://example.com/UrlToCall.php?parameter=value
+    mccurlr:
+        description: Reload McCall config.yml
+        usage: /mccurlr
+    mccall:
+        description: Call a pre-defined URL from inside MC.
+        usage: /mccall CommandName [Parameter1 [Parameter2 [..]]]
